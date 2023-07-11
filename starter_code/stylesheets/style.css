@@ -311,7 +311,7 @@ footer links grey: #454245
 
     }
 
-     @media (min-width: 768px){ 
+     @media (min-width: 1024px){ 
         #headerid{
             display: flex;
             flex-direction: row;
