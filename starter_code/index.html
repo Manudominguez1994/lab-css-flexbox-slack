@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,11 +14,10 @@
   <link rel="icon" type="image/x-icon" href="./images/slack-icon.png">
   <title>Slack is your digital HQ | Slack</title>
 </head>
-
 <body>
-  <nav>
+  <nav id="barra-nav">
     <div>
-      <img src="./images/slack-logo.png" alt="Slack logo" />
+      <img src="./images/slack-logo.png" alt="Slack logo" class="slackimg"/>
 
       <ul>
         <li>
@@ -37,7 +35,7 @@
       </ul>
     </div>
 
-    <div>
+    <div id="buttons-nav" class="buttonclass">
       <button>
         <img src="./images/icon-search.png" alt="Search icon">
       </button>
@@ -57,16 +55,16 @@
     </div>
   </nav>
 
-  <header>
-    <div>
-      <h1>Great teamwork starts with a digital HQ</h1>
+  <header id="headerid">
+    <div class="headerclass">
+      <h1>Great teamwork <br>starts with a digital <br>HQ</h1>
 
-      <p>Slack is free to try for as long as you'd like.</p>
+      <p><span>Slack is free to try</span> for as long as you'd like.</p>
 
       <div>
-        <button>Sign up with email</button>
+    <button class="signupclass">Sign up with email</button>
 
-        <button>
+        <button class="googleclass">
           <img src="./images/logo-google.png" alt="Google logo" />
           <span>Sign up with Google</span>
         </button>
@@ -74,13 +72,13 @@
 
     </div>
 
-    <div>
+    <div class="imagengrandeheader">
       <img src="./images/hero-product-ui.png" alt="Slack app screenshot" />
     </div>
   </header>
 
   <main>
-    <section>
+    <section id="brandsid" class="backgroundamarillo">
       <p>Trusted by companies all over the world</p>
 
       <div>
@@ -94,17 +92,17 @@
 
     </section>
 
-    <section>
+    <section id="bringid" class="backgroundamarillo">
       <div>
         <img src="./images/connectedness-mobile.png" alt="connectedness" />
       </div>
 
-      <div>
+      <div class="textbring">
         <h2>Bring your team together</h2>
 
         <p>
-          At the heart of Slack are channels: organized spaces for everyone and everything you need for work. In
-          channels, it's easier to connect across departments, offices, time zones and even other companies.
+          At the heart of Slack are channels: organized <br>spaces for everyone and everything you need<br> for work. In
+          channels, it's easier to connect <br>across departments, offices, time zones and <br> even other companies.
         </p>
 
         <a href="#">
@@ -113,35 +111,35 @@
       </div>
     </section>
 
-    <section>
-      <div>
-        <h2>Choose how you want to work</h2>
+    <section class="sectionchoose backgroundamarillo">
+      <div id="chooseid">
+        <h2>Choose how you want to <br>work</h2>
         <p>
-          In Slack, you’ve got all the flexibility to work when, where and how it’s best for you. You can easily chat,
+          In Slack, you’ve got all the flexibility to work <br> when, where and how it’s best for you.<br> You can easily chat,
           send
-          audio and video clips, or hop on a huddle to talk things out live.
+          audio and video <br> clips, or hop on a huddle to talk things out live.
         </p>
 
         <a href="#">
           <span>Learn more about flexible communication</span>
         </a>
       </div>
-
       <div>
         <img src="./images/flexibility-mobile.png" alt="flexibility" />
       </div>
+      
     </section>
 
-    <section>
+    <section id="movefaster" class="backgroundamarillo">
       <div>
         <img src="./images/speed-mobile.png" alt="speed" />
       </div>
 
       <div>
-        <h2>Move faster with your tools in one place</h2>
+        <h2>Move faster with your tools <br> in one place</h2>
         <p>
-          With your other work apps connected to Slack, you can work faster by switching tabs less. And with powerful
-          tools like Workflow Builder, you can automate away routine tasks.
+          With your other work apps connected to Slack,<br> you can work faster by switching tabs less. And <br> with powerful
+          tools like Workflow Builder, you<br> can automate away routine tasks.
         </p>
 
         <a href="#">
@@ -151,18 +149,18 @@
     </section>
 
 
-    <section>
-      <h3>Teams large and small rely on Slack</h3>
-      <p>Slack securely scales up to support collaboration at the world’s biggest companies.</p>
+    <section id="teamslarge">
+      <h3>Teams large and small <br>rely on Slack</h3>
+      <p>Slack securely scales up to support <br> collaboration at the world’s biggest companies.</p>
 
-      <div>
-        <button>Meet Slack for enterprise</button>
-        <button>Talk to sales</button>
+      <div >
+        <button class="buttonmeet">Meet Slack for enterprise</button>
+        <button class="talkclass">Talk to sales</button>
       </div>
 
-      <ul>
+      <ul class="listclass">
         <li>
-          <p><span>85%</span></p>
+          <p ><span class="porcentclass">85%</span></p>
           <p>
             of users say Slack has improved communication
             <sup>*</sup>
@@ -170,7 +168,7 @@
         </li>
 
         <li>
-          <p><span>86%</span></p>
+          <p><span class="porcentclass">86%</span></p>
           <p>
             feel their ability to work remotely has improved has improved
             <sup>*</sup>
@@ -178,7 +176,7 @@
         </li>
 
         <li>
-          <p><span>88%</span></p>
+          <p><span class="porcentclass">88%</span></p>
           <p>
             feel more connected to their teams*
             <sup>*</sup>
@@ -187,11 +185,11 @@
       </ul>
     </section>
 
-    <section>
-      <h3>Welcome to your new digital HQ</h3>
+    <section id="welcomeid">
+      <h3>Welcome to your new <br>digital HQ</h3>
 
-      <button>Try for free</button>
-      <button>Talk to sales</button>
+      <button class="tryfor">Try for free</button>
+      <button class="talkto">Talk to sales</button>
     </section>
 
   </main>
